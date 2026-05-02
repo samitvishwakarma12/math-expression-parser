@@ -17,6 +17,11 @@ A simple Python-based expression evaluator supporting:
 - No negative numbers (unary minus)
 - Integers only
 
+## How it works
+- Tokenizes input string
+- Uses two stacks (numbers and operators)
+- Applies operations based on precedence
+
 ## Example
 
 Input:  2 + 3 * 4
